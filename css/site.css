@@ -5,7 +5,7 @@ body {
 
 @font-face {
   font-family: "LeagueSpartan";
-  src: url(fonts/LeagueSpartan-VariableFont_wght.ttf);
+  src: url(../fonts/LeagueSpartan-VariableFont_wght.ttf);
 }
 
 ::-webkit-scrollbar {
