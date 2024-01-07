@@ -28,6 +28,7 @@ window.products =
 
 				let title = document.createElement('h5');
 				title.className = `card-title`;
+				title.textContent = data[i].name;
 				body.append(title);
 
 				let link = document.createElement('a');
