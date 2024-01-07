@@ -10,7 +10,7 @@ window.products =
 			{
 				let item = document.createElement('div');
 				item.className = `product col`;
-				list.append(itemContainer);
+				list.append(item);
 
 				let img = document.createElement('img');
 				img.src = `./images/stickers/${data[i].id}.png`;
