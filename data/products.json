@@ -9,6 +9,12 @@
 		"id": "item2",
 		"name": "Karameru Fan-made Penguin on Iceberg Waterproof Vinyl Sticker",
 		"price": 35.00,
-		"stocks": 10
-	}	
+		"stocks": 5
+	},
+	{
+		"id": "item3",
+		"name": "Karameru Fan-made Panda/Axolotl/Penguin Waterproof Vinyl Sticker",
+		"price": 15.00,
+		"stocks": 8
+	}
 ]

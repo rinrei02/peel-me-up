@@ -4,14 +4,28 @@ window.products =
 	{
 		this.loadData((data) =>
 		{
-			console.log('ALL DATA LOADED');
+			console.log('Loaded [' + data.length + '] products');
+			for (var i=0; i<data.length; i++)
+			{
+				
+			}
 		})
 	},
 	getSelectedDetails: function() 
 	{
+		let url = new URL(window.location.href);
+		let id = url.searchParams.get('id');
+		
+		console.log('Loading product [' + id + ']');
+
 		this.loadData((data) =>
 		{
-			console.log('SELECTED DETAILS LOADED');
+			let product = data.find(item =>
+			{
+				return item.id == id;
+			});
+
+			console.log('Loaded product [' + product.name + ']');
 		})
 	},
 	loadData: function(callback)
