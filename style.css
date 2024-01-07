@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "LeagueSpartan";
+  src: url(fonts/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+.right-column {
+  height: 85vh;
+}
+
+h1 {
+  color: #b878b3;
+}
+
+a {
+  text-decoration: none;
+  color: #de73a7;
+}
+
+.navbar {
+  background-color: #d0afd2;
+}
+
+#logo {
+  width: 8%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-icons {
+  width: 15%;
+}
+
+.offcanvas {
+  background-color: #de73a7;
+}
