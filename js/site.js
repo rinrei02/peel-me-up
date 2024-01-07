@@ -12,15 +12,19 @@ window.products =
 				item.className = `product col`;
 				list.append(item);
 
+				let card = document.createElement('div');
+				card.className = `card h-100`;
+				item.append(card);
+
 				let img = document.createElement('img');
 				img.src = `./images/stickers/${data[i].id}.png`;
 				img.className = `card-img-top`;
 				img.alt = `...`;
-				item.append(img);
+				card.append(img);
 
 				let body = document.createElement('div');
 				body.className = `card-body`;
-				item.append(body);
+				card.append(body);
 
 				let title = document.createElement('h5');
 				title.className = `card-title`;
