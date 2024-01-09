@@ -43,3 +43,12 @@ a {
 .offcanvas {
   background-color: #de73a7;
 }
+
+
+/* Gallery */
+#gallery { border:solid 1px red; position:relative; }
+#gallery-image { border:solid 1px blue; position:relative; height:320px; }
+#gallery-image button { background:red; border:none; position:absolute; width:30px; height:100%; padding:0; transition:all ease 600ms; }
+#gallery-image button:hover { transition:all ease 300ms; }
+#gallery-image button.prev { left:0; }
+#gallery-image button.next { right:0 }

@@ -17,7 +17,7 @@ window.products =
 				item.append(card);
 
 				let img = document.createElement('img');
-				img.src = `./images/stickers/${data[i].id}.png`;
+				img.src = `./products/${data[i].id}/main.png`;
 				img.className = `card-img-top`;
 				img.alt = `...`;
 				card.append(img);
@@ -59,7 +59,7 @@ window.products =
 	},
 	loadData: function(callback)
 	{
-		let dataUrl = './data/products.json';
+		let dataUrl = './products/list.json';
 		let options =
 		{
 			method: 'GET',
