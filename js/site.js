@@ -64,6 +64,7 @@ window.products =
 			for (var i=0; i<product.gallery.length; i++)
 			{
 				let imgSrc = `./products/${product.id}/${product.gallery[i]}`;
+				console.log(`Loaded product gallery image [${imgSrc}]`);
 
 				let item = document.createElement('li');
 				galleryList.append(item);
