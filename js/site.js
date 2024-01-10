@@ -58,7 +58,7 @@ window.products =
 			console.log(`Loaded product [${product.name}]`);
 
 			let galleryImage = document.querySelector('#gallery-image');
-			galleryImage.style.backgroundImage = `url('./products/${product.id}/${product.gallery[0]}');`;
+			galleryImage.style.backgroundImage = `url('./products/${product.id}/${product.gallery[0]}')`;
 
 			let galleryList = document.querySelector('#gallery-list');
 			for (var i=0; i<product.gallery.length; i++)
@@ -71,7 +71,7 @@ window.products =
 
 				let link = document.createElement('a');
 				link.href = imgSrc;
-				link.style.backgroundImage = `url('${imgSrc}');`;
+				link.style.backgroundImage = `url('${imgSrc}')`;
 				item.append(link);
 
 				let img = document.createElement('img');
