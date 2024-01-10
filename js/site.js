@@ -63,12 +63,14 @@ window.products =
 
 			document.querySelector('#gallery-image button.prev').onclick = function()
 			{
-				selectedGalleryIndex = (selectedGalleryIndex + 1) % product.gallery.length;
+				selectedGalleryIndex = (selectedGalleryIndex === 0)
+					? product.gallery.length - 1
+					: selectedGalleryIndex - 1;
 				galleryImage.style.backgroundImage = `url('./products/${product.id}/${product.gallery[selectedGalleryIndex]}')`;
 			};
 			document.querySelector('#gallery-image button.next').onclick = function()
 			{
-				selectedGalleryIndex = (selectedGalleryIndex - 1) % product.gallery.length;
+				selectedGalleryIndex = (selectedGalleryIndex + 1) % product.gallery.length;
 				galleryImage.style.backgroundImage = `url('./products/${product.id}/${product.gallery[selectedGalleryIndex]}')`;
 			};
 
