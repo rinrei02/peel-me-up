@@ -39,6 +39,7 @@ window.products =
 			}
 		})
 	},
+
 	getSelectedDetails: function() 
 	{
 		let url = new URL(window.location.href);
@@ -55,8 +56,31 @@ window.products =
 
 			document.title = `PEEL ME UP! | ${product.name}`;
 			console.log(`Loaded product [${product.name}]`);
+
+			let galleryImage = document.querySelector('#gallery-image');
+			galleryImage.style.backgroundImage = `url('./products/${product.id}/${product.gallery[0]}');`;
+
+			let galleryList = document.querySelector('#gallery-list');
+			for (var i=0; i<product.gallery.length; i++)
+			{
+				let imgSrc = `./products/${product.id}/${product.gallery[i]}`;
+
+				let item = document.createElement('li');
+				galleryList.append(item);
+
+				let link = document.createElement('a');
+				link.href = imgSrc;
+				link.style.backgroundImage = `url('${imgSrc}');`;
+				item.append(link);
+
+				let img = document.createElement('img');
+				img.src = imgSrc;
+				img.alt = `...`;
+				link.append(img);
+			}
 		})
 	},
+
 	loadData: function(callback)
 	{
 		let dataUrl = './products/list.json';
