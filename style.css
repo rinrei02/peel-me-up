@@ -1,0 +1,145 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "LeagueSpartan";
+  src: url(fonts/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+.right-column {
+  height: 85vh;
+}
+
+h1 {
+  color: #b878b3;
+}
+
+a {
+  text-decoration: none;
+  color: #de73a7;
+}
+
+.navbar {
+  background-color: #d0afd2;
+}
+
+#logo {
+  width: 8%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-icons {
+  width: 15%;
+}
+
+.offcanvas {
+  background-color: #de73a7;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-details {
+  flex: 0 0 60%;
+  padding: 0 20px;
+}
+
+.product-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 20px;
+  color: #ff007f;
+  margin-bottom: 15px;
+}
+
+.description {
+  margin-bottom: 15px;
+}
+
+.product-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select,
+input[type="number"],
+.add-to-cart {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.add-to-cart {
+  background-color: #ff007f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #d6006e;
+}
+#add-to-cart {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #DE73A7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 40px); /* Adjust the width as needed */
+    max-width: 500px; /* Set a maximum width if required */
+    margin-top: 20px;
+  }
+  
+  /*quantity selector*/
+  .quantity-selector {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .quantity-btn {
+    font-size: 20px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .quantity-number {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+
