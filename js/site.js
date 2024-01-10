@@ -57,8 +57,20 @@ window.products =
 			document.title = `PEEL ME UP! | ${product.name}`;
 			console.log(`Loaded product [${product.name}]`);
 
+			let selectedGalleryIndex = 0;
 			let galleryImage = document.querySelector('#gallery-image');
-			galleryImage.style.backgroundImage = `url('./products/${product.id}/${product.gallery[0]}')`;
+			galleryImage.style.backgroundImage = `url('./products/${product.id}/${product.gallery[selectedGalleryIndex]}')`;
+
+			document.querySelector('#gallery-image button.prev').onclick = function()
+			{
+				selectedGalleryIndex = (selectedGalleryIndex + 1) % product.gallery.length;
+				galleryImage.style.backgroundImage = `url('./products/${product.id}/${product.gallery[selectedGalleryIndex]}')`;
+			};
+			document.querySelector('#gallery-image button.next').onclick = function()
+			{
+				selectedGalleryIndex = (selectedGalleryIndex - 1) % product.gallery.length;
+				galleryImage.style.backgroundImage = `url('./products/${product.id}/${product.gallery[selectedGalleryIndex]}')`;
+			};
 
 			let galleryList = document.querySelector('#gallery-list');
 			for (var i=0; i<product.gallery.length; i++)
@@ -72,6 +84,11 @@ window.products =
 				let link = document.createElement('a');
 				link.href = imgSrc;
 				link.style.backgroundImage = `url('${imgSrc}')`;
+				link.onclick = function()
+				{
+					galleryImage.style.backgroundImage = `url('${this.href}')`;
+					return false;
+				};
 				item.append(link);
 
 				let img = document.createElement('img');
