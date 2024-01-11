@@ -105,6 +105,9 @@ window.products =
 			let productPrice = document.querySelector('#product-price');
 			productPrice.textContent = product.price;
 
+			let productTotalPrice = document.querySelector('#product-total-price');
+			productTotalPrice.textContent = 0;
+
 			let productDescription = document.querySelector('#product-description');
 			productDescription.innerHTML = product.description;
 
@@ -117,6 +120,7 @@ window.products =
 				if (quantity > 0)
 					quantity--;
 				productQuantity.textContent = quantity;
+				productTotalPrice.textContent = quantity * product.price;
 			};
 
 			document.querySelector('#product-quantity-add').onclick = function()
@@ -124,6 +128,7 @@ window.products =
 				if (quantity < product.stocks)
 					quantity++;
 				productQuantity.textContent = quantity;
+				productTotalPrice.textContent = quantity * product.price;
 			};
 		})
 	},
