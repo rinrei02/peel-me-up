@@ -4,55 +4,64 @@
 		"name": "Fragile Handle with Care Coquette Bunny Round Waterproof Vinyl Sticker",
 		"price": 25.00,
 		"stocks": 10,
-		"gallery": ["main.png", "gallery-1.png", "gallery-2.png", "gallery-3.png", "sample.png", "gallery-4.png", "gallery-5.png", "gallery-6.png"]
+		"gallery": ["main.png", "gallery-1.png", "gallery-2.png", "gallery-3.png", "sample.png", "gallery-4.png", "gallery-5.png", "gallery-6.png"],
+		"description": "Infuse your belongings with a blend of adorable charm and gentle reminders using our captivating Fragile ♡ Handle with Care Coquette Bunny Sticker. This enchanting sticker showcases a winsome bunny adorned with a stylish bow, fluttering lashes, and a coy expression, accompanied by the endearing message Fragile ♡ Handle with Care."
 	},
 	{
 		"id": "2",
 		"name": "Karameru Fan-made Penguin on Iceberg Waterproof Vinyl Sticker",
 		"price": 35.00,
 		"stocks": 5,
-		"gallery": ["main.png", "sample.png"]
+		"gallery": ["main.png", "sample.png"],
+		"description": "Unveil the charm of an adorable penguin inspired by Karameru, expertly crafted into a sticker. This delightful creation brings the arctic cuteness to your collection, making it a must-have for penguin enthusiasts and anime fans alike. Embrace the chilly magic as you combine the frosty allure of the iceberg with the lovable charisma of Karameru. Make a splash in your collection with this cool and adorable sticker!"
 	},
 	{
 		"id": "3",
 		"name": "Karameru Fan-made Panda/Axolotl/Penguin Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["main.png", "gallery-1.png", "gallery-2.png", "gallery-3.png", "sample.png", "gallery-4.png", "gallery-5.png", "gallery-6.png"]
+		"gallery": ["main.png", "gallery-1.png", "gallery-2.png", "gallery-3.png", "sample.png", "gallery-4.png", "gallery-5.png", "gallery-6.png"],
+		"description": "Unveil the charm of a four stickers inspired by Karameru, expertly crafted into perfect cuteness. Introducing four delightful stickers that brings cuteness to your collection, making it a must-have for Karameru enthusiasts and anime fans alike!"
 	},
 	{
 		"id": "4",
 		"name": "Persona 5 Fan-made Cute Morgana Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["main.png", "sample.png"]
+		"gallery": ["main.png", "sample.png"],
+		"description": "Introducing our Persona 5 Morgana inspired sticker! Each sticker is carefully wrapped in a sweet layer of candy, adding a touch of sweetness to your collection. Embrace the supernatural allure of the famous anime series while indulging in a tasty surprise. Perfect for fans and collectors alike, this unique combination of spooky and sweet makes for a one-of-a-kind addition to your anime memorabilia. Grab yours now and experience the enchantment!"
 	},
 	{
 		"id": "5",
 		"name": "Toilet Bound Hanako-San Fan-made Mokke Candy Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["main.png", "gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png", "sample.png", "gallery-5.png", "gallery-6.png", "gallery-7.png", "gallery-8.png"]
+		"gallery": ["main.png", "gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png", "sample.png", "gallery-5.png", "gallery-6.png", "gallery-7.png", "gallery-8.png"],
+		"description": "Introducing the Toilet-Bound Hanako-san Mokke Sticker Candy! Unveil the mystical charm of Hanako-san's mischievous companion, Mokke, with this delightful treat. Each mokke is wrapped in a candy wrapper, adding a touch of sweetness to your collection. Embrace the supernatural allure of the famous anime series while indulging in a tasty surprise. Perfect for fans and collectors alike, this unique combination of spooky and sweet makes for a one-of-a-kind addition to your anime memorabilia."
 	},
 	{
 		"id": "6",
-		"name": "Toilet Bound Hanako-San Fan-made Four Mokke Waterproof Vinyl Sticker",
+		"name": "Toilet Bound Hanako-San Fan-made Quadruple Mokke Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["main.png", "sample.png"]
+		"gallery": ["main.png", "sample.png"],
+		"description": "Quadruple the cuteness with our Toilet-Bound Hanako-san Mokke Candy Sticker! Unwrap the magic of Hanako-san's adorable compnions, Mokke, enclosed in a candy wrapper surprise. Elevate your collection with this enchanting fusion of cute and sweet. Don't miss out on this delightful treat – it's a quadruple dose of kawaii perfection!"
 	},
 	{
 		"id": "7",
-		"name": "Swavemente Funny Cute Waterproof Vinyl Sticker",
+		"name": "Suavemente Funny Cute Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["main.png", "sample.png"]
+		"gallery": ["main.png", "sample.png"],
+		"description": "Increase your suave with our Suavemente Sticker Elegance! Elevate your style with this funny sticker featuring sleek design and refined charm. Perfect for those who appreciate the finer things, this sticker exudes a suave aura that effortlessly enhances any collection. Unveil the epitome of coolness – embrace the suave with our Suavemente Sticker, a statement piece that adds a dash of class to your world."
 	},
 	{
 		"id": "8",
 		"name": "Anime Cry Funny Cute Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["main.png", "sample.png"]
+		"gallery": ["main.png", "sample.png"],
+		"description": "Has finals got you down? Don't worry! Introducing our Anime Cry Sticker, your perfect companion through college woes. This emotive sticker captures the essence of those challenging moments, letting you express your stress in a relatable and lighthearted way. Stick it on your study materials and let the anime character share the struggle with you. Turn those study blues into a shared anime moment – because even in tough times, you're not alone!"
+		
 	}
 ]
