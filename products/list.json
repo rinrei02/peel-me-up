@@ -4,7 +4,7 @@
 		"name": "Fragile Handle with Care Coquette Bunny Round Waterproof Vinyl Sticker",
 		"price": 25.00,
 		"stocks": 10,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png", "gallery-5.png", "gallery-6.png"]
+		"gallery": ["main.png", "sample.png", "gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png", "gallery-5.png", "gallery-6.png"]
 	},
 	{
 		"id": "2",
@@ -18,14 +18,14 @@
 		"name": "Karameru Fan-made Panda/Axolotl/Penguin Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png", "gallery-5.png", "gallery-6.png"]
+		"gallery": ["main.png", "sample.png", "gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png", "gallery-5.png", "gallery-6.png"]
 	},
 	{
 		"id": "4",
-		"name": "Karameru Fan-made Long Cat Waterproof Vinyl Sticker",
+		"name": "Persona5 Fan-made Cute Morgana Waterproof Vinyl Sticker,
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
+		"gallery": ["main.png", "sample.png"]
 	},
 	{
 		"id": "5",
@@ -39,83 +39,19 @@
 		"name": "Toilet Bound Hanako-San Fan-made Four Mokke Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
+		"gallery": ["main.png", "sample.png"]
 	},
 	{
 		"id": "7",
-		"name": "Persona 5 Fan-made Cute Morgana Waterproof Vinyl Sticker",
-		"price": 15.00,
-		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
-	},
-	{
-		"id": "8",
 		"name": "Swavemente Funny Cute Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
+		"gallery": ["main.png", "sample.png"]
 	},
 	{
-		"id": "9",
-		"name": "Lorem Churva Ipsum",
+		"id": "8",
+		"name": "Anime Cry Funny Cute Waterproof Vinyl Sticker",
 		"price": 15.00,
 		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
-	},
-	{
-		"id": "10",
-		"name": "Lorem Churva Ipsum",
-		"price": 15.00,
-		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
-	},
-	{
-		"id": "11",
-		"name": "Lorem Churva Ipsum",
-		"price": 15.00,
-		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
-	},
-	{
-		"id": "12",
-		"name": "Lorem Churva Ipsum",
-		"price": 15.00,
-		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
-	},
-	{
-		"id": "13",
-		"name": "Lorem Churva Ipsum",
-		"price": 15.00,
-		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
-	},
-	{
-		"id": "14",
-		"name": "Lorem Churva Ipsum",
-		"price": 15.00,
-		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
-	},
-	{
-		"id": "15",
-		"name": "Lorem Churva Ipsum",
-		"price": 15.00,
-		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
-	},
-	{
-		"id": "16",
-		"name": "Lorem Churva Ipsum",
-		"price": 15.00,
-		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
-	},
-	{
-		"id": "17",
-		"name": "Lorem Churva Ipsum",
-		"price": 15.00,
-		"stocks": 8,
-		"gallery": ["gallery-1.png", "gallery-2.png", "gallery-3.png", "gallery-4.png"]
+		"gallery": ["main.png", "sample.png"]
 	}
-]
