@@ -44,6 +44,8 @@ a {
   background-color: #de73a7;
 }
 
+#product-details-container { max-width:980px; }
+
 
 /* Gallery */
 #gallery { position:relative; }
