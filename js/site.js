@@ -112,7 +112,7 @@ window.products =
 			productTotalPrice.textContent = 0;
 
 			let productDescription = document.querySelector('#product-description');
-			productDescription.innerHTML = product.description;
+			productDescription.innerHTML = marked.parse(product.description);
 
 			let quantity = 0;
 			let productQuantity = document.querySelector('#product-quantity');
