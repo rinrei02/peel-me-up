@@ -98,6 +98,33 @@ window.products =
 				img.alt = `...`;
 				link.append(img);
 			}
+
+			let productTitle = document.querySelector('#product-title');
+			productTitle.textContent = product.name;
+
+			let productPrice = document.querySelector('#product-price');
+			productPrice.textContent = product.price;
+
+			let productDescription = document.querySelector('#product-description');
+			productDescription.innerHTML = product.description;
+
+			let quantity = 0;
+			let productQuantity = document.querySelector('#product-quantity');
+			productQuantity.textContent = quantity;
+
+			document.querySelector('#product-quantity-sub').onclick = function()
+			{
+				if (quantity > 0)
+					quantity--;
+				productQuantity.textContent = quantity;
+			};
+
+			document.querySelector('#product-quantity-add').onclick = function()
+			{
+				if (quantity < product.stocks)
+					quantity++;
+				productQuantity.textContent = quantity;
+			};
 		})
 	},
 
